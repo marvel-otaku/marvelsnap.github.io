@@ -6,3 +6,5 @@ minima:
   social_links:
     twitter: your_twitter
     github: your_github
+include:
+  - pages
