@@ -1,6 +1,5 @@
-# marvelsnap.github.io
-
 # Marvel Snap 情報局 🚀
+
 このサイトは **Marvel Snap** の情報をまとめたブログです。
 
 ## 🔧 サイトの機能
@@ -10,6 +9,7 @@
 
 
 ## 🔗 リンク
+- [公式サイト](https://marvel-otaku.github.io/marvelsnap.github.io/)
 - [公式サイト](https://www.marvelsnap.com)
 - [GitHubリポジトリ](https://github.com/your-repo)
 
@@ -17,7 +17,7 @@
 ## 👤 作者
 - **Twitter（X）:** [@your_twitter](https://twitter.com/your_twitter)
 - **GitHub:** [your_github](https://github.com/your_github)
--ご意見ご要望はXのDMまでお願いします。
+- ご意見ご要望はXのDMまでお願いします
 
 
 ## 📜 ライセンス
