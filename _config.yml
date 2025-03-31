@@ -1,10 +1,8 @@
 title: Marvel Snap 情報局
 description: Marvel Snapの情報サイト　定期的に更新します
 theme: minima
-　
-
 minima:
-  skin:　dark  # dark, auto, classic など
+  skin: dark  # dark, auto, classic など
   social_links:
     twitter: your_twitter
     github: your_github
