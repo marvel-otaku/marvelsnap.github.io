@@ -9,8 +9,8 @@
 
 
 ## 🔗 リンク
-- [公式サイト](https://marvel-otaku.github.io/marvelsnap.github.io/)
-- [公式サイト](https://www.marvelsnap.com)
+- [ Marvel Snap 情報局](https://marvel-otaku.github.io/marvelsnap.github.io/)
+
 - [GitHubリポジトリ](https://github.com/your-repo)
 
 
