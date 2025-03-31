@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  {% include head.html %}
+</head>
+<body>
+
+  <!-- ナビゲーションバー -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="/">ホーム</a></li>
+      <li><a href="/about">サイトについて</a></li>
+      <li><a href="/blog">ブログ</a></li>
+      <li><a href="/contact">お問い合わせ</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
