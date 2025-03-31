@@ -1,3 +1,5 @@
+@import "minima";  // Minimaのスタイルを継承
+
 // Marvel Snap風のカスタムスタイル
 $primary-color: #612fff; // Marvel Snapの紫っぽい色
 $background-color: #0d1117; // ダークモード風
@@ -18,6 +20,7 @@ a:hover {
   color: lighten($primary-color, 20%);
 }
 
+// ヘッダーのスタイル
 .header {
   background: $primary-color;
   padding: 10px;
@@ -27,18 +30,15 @@ a:hover {
   color: white;
 }
 
+// フッターのスタイル
 .footer {
   background: $primary-color;
   padding: 10px;
   text-align: center;
   color: white;
 }
----
----
 
-@import "minima";  // Minimaのスタイルを継承
-
-/* ナビゲーションバーのスタイル */
+// ナビゲーションバーのスタイル
 .navbar {
   background: #333;
   padding: 10px 0;
