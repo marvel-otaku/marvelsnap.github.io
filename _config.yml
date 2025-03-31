@@ -16,3 +16,7 @@ collections:
     output: true
     permalink: /:path/
 
+sass:
+  sass_dir: _sass
+  style: compressed  # もしくは expanded（デバッグ用）
+
