@@ -1,7 +1,7 @@
 title: Marvel Snap 情報局
 description: Marvel Snapの情報サイト　定期的に更新します
 theme: minima
-baseurl: "/marvel-otaku"  # リポジトリ名が "marvel-otaku" なら追加！
+baseurl: "/marvel-otaku"
 url: "https://marvel-otaku.github.io"
 
 minima:
@@ -9,7 +9,9 @@ minima:
   social_links:
     twitter: your_twitter
     github: your_github
-include:
-  - pages
 
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
