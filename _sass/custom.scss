@@ -12,47 +12,26 @@ body {
   font-family: 'Bebas Neue', sans-serif;
 }
 
-// リンクのホバーエフェクト
-a {
-  position: relative;
-  color: #ffcc00;
-  transition: 0.3s;
-}
-
-a::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -3px;
-  width: 0;
-  height: 2px;
-  background: #ffcc00;
-  transition: 0.3s;
-}
-
-a:hover::after {
-  width: 100%;
-  left: 0;
-}
-
-// ヘッダーをグラデーションでカッコよく
-.header {
-  background: linear-gradient(45deg, $primary-color, $secondary-color);
-  padding: 15px;
-  text-align: center;
-  font-size: 28px;
+// ロゴデザイン（元の h1 のスタイルを適用）
+.logo {
+  font-size: 42px;  // H1と同じ大きさ
   font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+  text-align: center;
   text-transform: uppercase;
+  text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.5);
+  color: #ffcc00; // 目立たせる
+  letter-spacing: 2px;
+  margin-bottom: 10px;
 }
 
-// フッターも統一感を出す
-.footer {
-  background: $primary-color;
-  padding: 10px;
+// サブタイトルの H1
+h1 {
+  font-size: 28px;  // H2より大きく
+  font-weight: bold;
   text-align: center;
-  color: white;
+  border-bottom: 2px solid $primary-color; // 下線を追加
+  padding-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 // ナビゲーションバー（少し立体感を追加）
@@ -81,6 +60,16 @@ a:hover::after {
 
 .navbar ul li a:hover {
   text-decoration: underline;
+}
+
+// H2のデザイン（小見出し用）
+h2 {
+  font-size: 24px;  
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 2px solid $primary-color;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 // ゲーム攻略っぽくカード型デザイン
