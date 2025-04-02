@@ -12,27 +12,39 @@ body {
   font-family: 'Bebas Neue', sans-serif;
 }
 
+
+
 // ロゴデザイン（元の h1 のスタイルを適用）
 .logo {
-  font-size: 42px;  // H1と同じ大きさ
+  font-size: 52px;  // さらに大きく
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.5);
+  text-shadow: 4px 4px 12px rgba(255, 255, 255, 0.6);
   color: #ffcc00; // 目立たせる
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-bottom: 10px;
 }
 
-// サブタイトルの H1
+
+// サブタイトルの H1（下線なし）
 h1 {
-  font-size: 28px;  // H2より大きく
+  font-size: 28px;
   font-weight: bold;
   text-align: center;
-  border-bottom: 2px solid $primary-color; // 下線を追加
+  margin-bottom: 20px;
+}
+
+// H2のデザイン（小見出し用）
+h2 {
+  font-size: 24px;  
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 2px solid $primary-color;
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
+
 
 // ナビゲーションバー（少し立体感を追加）
 //.navbar {
@@ -121,15 +133,6 @@ h1 {
 }
 
 
-// H2のデザイン（小見出し用）
-h2 {
-  font-size: 24px;  
-  font-weight: bold;
-  text-align: left;
-  border-bottom: 2px solid $primary-color;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
-}
 
 // ゲーム攻略っぽくカード型デザイン
 .card {
