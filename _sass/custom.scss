@@ -16,7 +16,7 @@ body {
 
 // ロゴデザイン（元の h1 のスタイルを適用）
 .logo {
-  font-size: 52px;  // さらに大きく
+  font-size: 60px;  // さらに大きく
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -83,6 +83,7 @@ h2 {
   border-bottom: 3px solid #ffcc00; // ゴールドの下線
 }
 
+
 // ナビゲーションメニューのリスト
 .navbar ul {
   list-style: none;
@@ -97,39 +98,32 @@ h2 {
   margin: 0 20px;
 }
 
-// ナビゲーションリンク
+
+
+// ナビゲーションリンクのスタイル
 .navbar ul li a {
-  position: relative;
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
   padding: 10px 15px;
-  transition: 0.3s;
+  display: inline-block;
+  position: relative;
+  transition: color 0.3s, text-shadow 0.3s;
 }
 
 // ホバー時のネオン発光エフェクト
-.navbar ul li a::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -5px;
-  width: 0;
-  height: 3px;
-  background: #ffcc00;
-  transition: all 0.3s ease-out;
+.navbar ul li a:hover {
+  color: #ffcc00;
+  text-shadow: 0px 0px 10px rgba(255, 204, 0, 0.8),
+               0px 0px 20px rgba(255, 204, 0, 0.5);
 }
 
-.navbar ul li a:hover::after {
-  width: 100%;
-  left: 0;
-}
-
-// クリック時のエフェクト（押したときに光る感じ）
+// クリック時のエフェクト
 .navbar ul li a:active {
-  transform: scale(0.95);
-  filter: brightness(1.5);
+  transform: scale(0.95);  // クリック時に少し縮む
+  text-shadow: 0px 0px 15px rgba(255, 204, 0, 1),
+               0px 0px 30px rgba(255, 204, 0, 0.7);
 }
 
 
