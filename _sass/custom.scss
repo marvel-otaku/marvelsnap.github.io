@@ -35,32 +35,91 @@ h1 {
 }
 
 // ナビゲーションバー（少し立体感を追加）
+//.navbar {
+  //background: #333;
+  //padding: 10px 0;
+  //text-align: center;
+  //box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+//}
+
+//.navbar ul {
+  //list-style: none;
+  //padding: 0;
+//}
+
+//.navbar ul li {
+  //display: inline;
+  //margin: 0 15px;
+//}
+
+//.navbar ul li a {
+  //color: white;
+  //text-decoration: none;
+  //font-weight: bold;
+//}
+
+//.navbar ul li a:hover {
+  //text-decoration: underline;
+//}
+
+// ナビゲーションバーのデザイン
 .navbar {
-  background: #333;
-  padding: 10px 0;
+  background: linear-gradient(90deg, #612fff, #9b51e0); // グラデーション背景
+  padding: 12px 0;
   text-align: center;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid #ffcc00; // ゴールドの下線
 }
 
+// ナビゲーションメニューのリスト
 .navbar ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
+// ナビゲーション項目
 .navbar ul li {
-  display: inline;
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
+// ナビゲーションリンク
 .navbar ul li a {
-  color: white;
-  text-decoration: none;
+  position: relative;
+  font-size: 18px;
   font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: 0.3s;
 }
 
-.navbar ul li a:hover {
-  text-decoration: underline;
+// ホバー時のネオン発光エフェクト
+.navbar ul li a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background: #ffcc00;
+  transition: all 0.3s ease-out;
 }
+
+.navbar ul li a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+// クリック時のエフェクト（押したときに光る感じ）
+.navbar ul li a:active {
+  transform: scale(0.95);
+  filter: brightness(1.5);
+}
+
 
 // H2のデザイン（小見出し用）
 h2 {
